@@ -1,3 +1,3 @@
 string="\nHello"
-a=int(input())
-print (string*a)
+N=int(input())
+print (string*N)

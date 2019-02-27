@@ -1,21 +1,21 @@
-a1,b=map(str,input().split())
-#d=len(a1)-len(b)
+a11,b=map(str,input().split())
+#d=len(a11)-len(b)
 #d=abs(d)
 d=0
-if len(a1)>len(b):
+if len(a11)>len(b):
     mins=b
-    maxs=a1
-elif len(a1)<len(b):
-    mins=a1
+    maxs=a11
+elif len(a11)<len(b):
+    mins=a11
     maxs=b
 else:
-    mins=a1
+    mins=a11
     maxs=b
 for i in range(0,len(mins)):
-    if a1[i]==b[i]:
+    if a11[i]==b[i]:
         continue
     else:
-        d=d+abs(ord(a1[i])-ord(b[i]))
+        d=d+abs(ord(a11[i])-ord(b[i]))
 while(i+1<len(maxs)):
     d=d+ord(maxs[i+1])-96
     i=i+1

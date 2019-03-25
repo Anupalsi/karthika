@@ -2,10 +2,10 @@
 
 int main(void) {
 
-	int l,b,h,vol,tsa;
-	scanf("%d %d %d",&l,&b,&h);
+	int L,B,H,vol,tsa;
+	scanf("%d %d %d",&L,&B,&H);
 	vol=l*b*h;
-	tsa=(2*((l*b)+(b*h)+(h*l)));
+	tsa=(2*((L*B)+(B*H)+(H*L)));
 	printf("%d %d",tsa,vol);
 	return 0;
 }

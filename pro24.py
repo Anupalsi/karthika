@@ -1,3 +1,4 @@
+#anu
 nin=int(input())
 a=[]
 k=bin(2**nin-1)[2::]

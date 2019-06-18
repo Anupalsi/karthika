@@ -1,3 +1,4 @@
+#anu
 nin,k=map(int,input().split())
 p=list(map(int,input().split()))
 v=list(map(int,input().split()))

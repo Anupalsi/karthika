@@ -17,4 +17,4 @@ while(f==0):
 		print(prod)
 		f=1
 	p+=1
-© 2019 GitHub, Inc.
+

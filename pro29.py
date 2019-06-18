@@ -1,3 +1,4 @@
+#anu
 ain=int(input())
 i=0
 x=0
@@ -13,4 +14,3 @@ while i<90 and i<ain:
 print(x)
 for i in b:
   print(i)
-© 2019 GitHub, Inc.
